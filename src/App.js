@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Button from './Components/Button'
+import Counter from './Components/Counter';
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
         >
           Learn React
         </a>
-        <Button/ >
+        <Button/>
+        <Counter/>
       </header>
     </div>
   );
