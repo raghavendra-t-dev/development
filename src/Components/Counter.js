@@ -2,7 +2,7 @@ import { useState } from "react"
 
 const Counter=()=>{
     const [count,setCount] = useState()
-    // console.log(count)
+    console.log(count)
     return(
         <div>
             <p>Counter Component</p>
